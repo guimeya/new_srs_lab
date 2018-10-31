@@ -44,6 +44,8 @@ Figure 1 - Block diagram
 Product functions:
 ==================
 
+With the web application, student will be able to post their assignment and get information back from the instructors and TAs, the visitors will also be able to search for information. It will be possible for the administrator of the system to manage the options for those criteria that have that. 
+
 
 
  
