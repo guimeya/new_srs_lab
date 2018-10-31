@@ -78,6 +78,10 @@ The web portal will be constrained by the capacity of the database.
 
 
 Assumptions and dependencies:
+
+
+One assumption about the product is that it can also be used on mobile phones 
+Another assumption is that the visitors can be able to asses some information’s on the system.
 =============================
 
 
