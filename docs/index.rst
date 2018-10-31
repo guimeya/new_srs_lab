@@ -89,6 +89,9 @@ Apportioning of requirements:
 
 
 In the case that the project is delayed, there are some requirements that could be transferred to the next version of the application. Those requirements are to be developed in the third release.
+
+
+Specific requirements:
 =============================
 
 
