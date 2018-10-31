@@ -53,6 +53,10 @@ The result of the search will be viewed either in a list view.
 The web portal will provide functionality to manage the system and the web information. It will also provide information about the system.
 
 
+User characteristics:
+=====================
+
+
 
  
 
