@@ -25,7 +25,13 @@ More specifically, this lab report is designed to allow an administrator to mana
 DESCRIPTION:
 ============
 
-This section will give an overview of the whole system. The system will be explained in its context to show how the system interacts with other systems and introduce the basic functionality of it. It will also describe what type of stakeholders that will use the system and what functionality is available for each type.  
+This section will give an overview of the whole system. The system will be explained in its context to show how the system interacts with other systems and introduce the basic functionality of it. It will also describe what type of stakeholders that will use the system and what functionality is available for each type.
+
+
+Product perspective:
+==================== 
+
+ 
 
 
 
