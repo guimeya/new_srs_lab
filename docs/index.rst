@@ -70,6 +70,9 @@ The administrators also only interact with the web portal. They are managing the
 Constraints:
 
 
+The Internet connection is also a constraint for the application. Since the application fetches data from the database over the Internet, it is crucial that there is an Internet connection for the application to function.
+
+
 
  
 
