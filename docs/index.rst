@@ -64,6 +64,9 @@ The student users can post assignments and give feedback to the instructors. The
 The TAs also works like the instructors they have the same funtions. The visitors only search for information on the system.
 
 
+The administrators also only interact with the web portal. They are managing the overall system so there is no incorrect information within it. The administrator can manage the information.
+
+
 
  
 
