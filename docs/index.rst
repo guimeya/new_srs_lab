@@ -249,7 +249,172 @@ A component diagram represent a set of components and their relationships. These
 
 
 Scenario/base scenario
-----------------------
+======================
+
+
+create account
+--------------
+
+Fill in your name
+
+
+Enter your id
+
+
+Enter your email
+
+
+Enter your phone number
+
+
+Enter your course
+
+
+Enter your password
+
+
+Press the button create
+
+
+Press enter
+
+
+login in the web portal
+-----------------------
+
+Fill in your name or email
+
+
+Fill in your password
+
+
+Press the button connection
+
+
+check feedback
+--------------
+
+Click on feedback menu
+
+
+Click on the link
+
+
+Open the link
+
+
+Read the link
+
+
+Download the link
+
+
+set the deadline
+----------------
+
+
+Click on the calendar
+
+
+Select the date
+
+
+Click on extend deadline
+
+
+Click on update deadline
+
+
+Press in save new deadline
+
+
+delete account
+--------------
+
+Click on users account
+
+
+Select the account
+
+
+Click on delete
+
+
+Click on suspend account
+
+
+Press in the button enter
+
+
+initialize a password
+---------------------
+
+Select user account
+
+
+Choose the account
+
+
+Click on the button initialize
+
+
+Fill in the password
+
+
+Save the new password
+
+
+Press the button enter
+
+
+send request
+------------
+
+Press request button 
+
+
+Fill in your request
+
+
+Press  send request
+
+Save the request
+
+
+give feedback
+-------------
+
+Click in student email
+
+
+Choose the student email
+
+
+Send feedback
+
+
+REFERENCES:
+===========
+
+
+https://cn.bing.com/search?q=running+environment+phpmysql&src=IE-TopResult&FORM=IETR02&conversationid=&pc=EUPP_
+https://www.tutorialspoint.com/uml/uml_standard_diagrams.htm
+https://www.tutorialspoint.com/uml/uml_standard_diagrams.htm
+https://courses.cs.washington.edu/courses/cse403/11sp/lectures/lecture08-uml1.pdf
+http://www.nyu.edu/classes/jcf/g22.2440-001_sp09/handouts/UMLBasics.pdf
+https://www.ibm.com/support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.xtools.modeler.doc/topics/cinterfc.html
+https://techwhirl.com/writing-software-requirements-specifications/
+https://www.uml-diagrams.org/component-diagrams.html
+https://www.ibm.com/developerworks/rational/library/dec04/bell/index.html
+https://docs.staruml.io/working-with-diagrams/component-diagram
+https://online.visual-paradigm.com/tutorials/component-diagram-tutorial/
+https://www.tutorialspoint.com/uml/uml_component_diagram.htm
+https://online.visual-paradigm.com/diagrams.jsp#diagramlist:proj=0&new=ComponentDiagram
+https://www.smartdraw.com/component-diagram/
+https://tallyfy.com/uml-diagram/
+
+
+
 
 
 
