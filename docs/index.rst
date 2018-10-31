@@ -100,7 +100,160 @@ This section contains all of the functional and quality requirements of the syst
 
 External interface Requirements:
 ================================
-=============================
+
+
+This section provides a detailed description of all inputs into and outputs from the system. It also gives a description of the hardware, software and communication interfaces and provides basic prototypes of the user interface. 
+
+
+User interfaces:
+================
+
+
+A first-time user of the application should see the log-in page when he/she opens the application, see Figure 2. If the user has not sign up, he/she should be able to do that on the log-in page.
+
+
+If the user is not a first-time user, he/she should be able to see the home page directly when the application is opened, see Figure 3. Here the user chooses the type of program he/she wants to conduct.
+
+
+Every user should have a profile page where they can edit their e-mail address, ID number, select program, language and password, see Figure 4.
+
+
+Figure 2 - Login page 
+Figure 3 – Search page 
+Figure 4 – Profile page
+
+
+In Figure 5, Students, instructor, visitors, TAs and administrators interact with the system through a web-portal. A student should be able to register on the web-portal in order to log in and manage his/her account. An administrator should also be able to log in to the web-portal where he/she can administer the system by for instance editing restaurant or user information.
+
+Hardware interfaces:
+====================
+
+
+Since the web portal have any designated hardware, it does not have any direct hardware interfaces. The hardware connection to the database server is managed by the underlying operating system on the computer and the web server.
+
+
+Software interfaces:
+====================
+
+The system communicates with the web application in order to get information.
+
+
+PRIORITIZATION AND RELEASE PLAN:
+================================
+
+
+PROGRAMMING LANGUAGE:
+=====================
+
+
+JAVA JDK 8 we use java language because in java everything is an object, it can be easily extended since it is based on the object model. It’s simple and easy to learn, it’s secure, it’s portable, it’s robust, it’s interpreted : java byte code is translated on the fly to native machine instructions and is not stored anywhere.java has a high performance and it’s multithreaded : it’s possible to write programs that can perform many tasks simultaneously.
+
+
+WampServer in our project, we have used the server Wamp, which provides the basics for setting up your local Apache/PHP/MySQL environment on windows.
+
+
+Apache is our web server software.
+
+
+PHP is the general purpose scripting language that runs on Apache.
+
+
+MySQL is the database server software that works hand-in-hand with PHP and Apache.
+phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MYSQL over the web. Concerning our project, we have used phpMyAdmin to develop our database.
+
+
+SUBLIME is a test editor which helps us to write our srs in Read the doc.
+
+
+DIA is an application which helps us to do our UML diagrams.
+
+
+VISUAL STUDIO is a source code editor developed by Microsoft for windows, linux and macOS. It includes support for debugging, embedded Git control...in our lab project, we choose visual studio to implement our application and develop environment tools. 
+
+
+ACTORS OF SYSTEM:
+=================
+
+
+Students
+
+Instructors
+
+TAs
+
+Administrators
+
+Visitors
+
+
+DATABASE:
+=========
+
+
+A database is an organized collection of data, stored and accessed electronically. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the online lab report of students assignment in lab and teacher give them feedback.
+
+
+For this project, we have five (5) tables such as: students, instructors, TAs, administrators and visitors.
+
+
+FUNCTIONAL REQUIREMENTS :
+=========================
+
+
+UML DIAGRAMS:
+=============
+
+
+UML means Unified Modeling Language. UML is a way of visualizing a software program using a collection of diagrams. UML 2.0 helped extend the original UML specification to cover a wider portion of software development efforts including agile practices.
+
+
+Development process and UML diagram :
+
+
+Behavioral UML diagrams:
+------------------------
+
+
+Use case diagram
+
+
+A use case diagram is a set of use cases, actors and their relationships.it’s represents the use case view of a system. For our project lab, we have five (5) actors and then we have doing a use case of each actor of system. It represents a particular functionality of a system. Use case diagram is used to describe the relationships among the functionalities and their internal/external controllers. These controllers are known as actors. For example, for our lab project , our controllers is admin.
+
+
+Sequence diagram
+
+
+A sequence diagram is an interaction diagram. From the name it’s clear that the diagram deals with some sequences, which are the sequence of messages flowing from one object to another. It’s use to visualize the sequence of calls in a system to perform a specific functionality.
+
+
+Activity diagram
+
+
+Activity diagram describes the flow of contol in a system. It consists of activities and links. Activity diagram are used t visualize the floor of controls in a system.
+
+
+Structural UML diagrams
+-----------------------
+
+
+Class diagram
+
+
+A class diagram consists of classes, interfaces, associations and collaboration. In this lab project, this class diagram bellow represent basically the object-oriented view of our system.
+
+
+Component diagram
+
+
+A component diagram represent a set of components and their relationships. These components consist of classes, interfaces and collaborations. It represents the implementation view of a system.
+
+
+Scenario/base scenario
+----------------------
+
+
+
+
 
 
 
