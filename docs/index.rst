@@ -41,6 +41,9 @@ Since this is a data-centric product it will need somewhere to store the data. F
 Figure 1 - Block diagram
 ------------------------
 
+Product functions:
+==================
+
 
 
  
