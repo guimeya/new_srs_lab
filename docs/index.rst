@@ -22,6 +22,9 @@ This software system will be a lab report repository for student to be able to u
 
 More specifically, this lab report is designed to allow an administrator to manage and communicate with a group of reviewers and student who post to a public web side. The software will facilitate communication between instructors, students, visitors and TAs via E-mail.  Preformatted reply forms are used in every stage of the report progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options.
 
+DESCRIPTION:
+============
+
 
 
 
