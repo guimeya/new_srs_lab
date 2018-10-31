@@ -50,6 +50,9 @@ With the web application, student will be able to post their assignment and get 
 The result of the search will be viewed either in a list view.
 
 
+The web portal will provide functionality to manage the system and the web information. It will also provide information about the system.
+
+
 
  
 
