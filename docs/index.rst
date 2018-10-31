@@ -34,6 +34,9 @@ Product perspective:
 
 This system will consist of only one part: web portal. The web portal will be used for managing the information about the website and the?system as a whole. 
 
+
+Since this is a data-centric product it will need somewhere to store the data. For that, a database will be used. The web portal will communicate with the database, however in slightly different ways. The web portal will also add and modify data. All of the database communication will go over the Internet.
+
  
 
 
