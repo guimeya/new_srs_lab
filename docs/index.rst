@@ -73,6 +73,9 @@ Constraints:
 The Internet connection is also a constraint for the application. Since the application fetches data from the database over the Internet, it is crucial that there is an Internet connection for the application to function.
 
 
+The web portal will be constrained by the capacity of the database.
+
+
 
  
 
