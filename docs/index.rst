@@ -92,6 +92,14 @@ In the case that the project is delayed, there are some requirements that could 
 
 
 Specific requirements:
+======================
+
+
+This section contains all of the functional and quality requirements of the system. It gives a detailed description of the system and all its features.
+
+
+External interface Requirements:
+================================
 =============================
 
 
