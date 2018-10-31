@@ -18,6 +18,8 @@ repository. It will explain the purpose and features of the Lab report, the inte
 SCOPE OF PROJECT:
 =================
 
+This software system will be a lab report repository for student to be able to upload their assignments. This system will be designed to help instructors to read and mark uploaded assignments of student also other visitors can visit the system if they want to. The lab report will be to understand and use.
+
 
 
 
