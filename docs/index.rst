@@ -31,7 +31,8 @@ This section will give an overview of the whole system. The system will be expla
 Product perspective:
 ====================
 
- This system will consist of only one part: web portal. The web portal will be used for managing the information about the website and the?system as a whole. 
+
+This system will consist of only one part: web portal. The web portal will be used for managing the information about the website and the?system as a whole. 
 
  
 
