@@ -82,6 +82,10 @@ Assumptions and dependencies:
 
 One assumption about the product is that it can also be used on mobile phones 
 Another assumption is that the visitors can be able to asses some information’s on the system.
+
+
+Apportioning of requirements:
+=============================
 =============================
 
 
