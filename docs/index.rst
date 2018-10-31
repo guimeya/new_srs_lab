@@ -57,6 +57,9 @@ User characteristics:
 =====================
 
 
+There are five types of users that interact with the system: users of the web application, student, instructors, TAs, visitors and administrators. Each of these five types of users has different use of the system so each of them has their own requirements. 
+
+
 
  
 
