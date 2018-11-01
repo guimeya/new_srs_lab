@@ -944,36 +944,42 @@ The attribute requirements are the heart ans soul of why our customers will valu
 
 
 Reliability
+-----------
 
 
 the reliability system. our system should gives the right result on a search.
 
 
 Maintainability
+---------------
 
 
 Application should be easy to extend. code should be written in a way that it favors implementatio of new functions.
 
 
 Security
+--------
 
 
 The Communication between system and server need to be more secure. should respect the security principles such as: authentification, confidently, verification..
 
 
 Availability
+------------
 
 
 The system should be available when it is used.
 
 
 Portability
+-----------
 
 
 Application should be  portable with multiple system such as LINUX, WINDOWS, iOS, ANDROID, DEBIAN...
 
 
 Robustness
+----------
 
 
 our system should be robust to save amount of data and satistying the most of customers.
