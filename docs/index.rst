@@ -30,6 +30,53 @@ This software system will be a lab report repository for student to be able to u
 
 More specifically, this lab report is designed to allow an administrator to manage and communicate with a group of reviewers and student who post to a public web side. The software will facilitate communication between instructors, students, visitors and TAs via E-mail.  Preformatted reply forms are used in every stage of the report progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options.
 
+
+I-3 DEFINITION:
+===============
+
+
+Instructor
+----------
+
+
+is a teacher of the lab responsible to update some information and send it to the students.
+
+
+
+Student
+-------
+
+
+is someone who is registered for the lab class.
+
+
+
+Administrator
+-------------
+
+
+
+is a system admin who is giving specific permission for managing and controlling the system.
+
+
+
+Visitor
+-------
+
+
+
+someone else who visit or take part of some information in our application.
+
+
+
+
+TAs
+---
+
+
+
+is a teacher assistant who update some information. 
+
 II- DESCRIPTION:
 ================
 
@@ -46,8 +93,8 @@ This system will consist of only one part: web portal. The web portal will be us
 Since this is a data-centric product it will need somewhere to store the data. For that, a database will be used. The web portal will communicate with the database, however in slightly different ways. The web portal will also add and modify data. All of the database communication will go over the Internet.
 
 
-Figure 1 - Block diagram
-------------------------
+Fig: Block diagram
+
 
 II-2 PRODUCT FUNCTIONS:
 =======================
@@ -126,9 +173,9 @@ If the user is not a first-time user, he/she should be able to see the home page
 Every user should have a profile page where they can edit their e-mail address, ID number, select program, language and password, see Figure 4.
 
 
-Figure 2 - Login page 
-Figure 3 – Search page 
-Figure 4 – Profile page
+Fig: Login page 
+Fig: Search page 
+Fig: Profile page
 
 
 In Figure 5, Students, instructor, visitors, TAs and administrators interact with the system through a web-portal. A student should be able to register on the web-portal in order to log in and manage his/her account. An administrator should also be able to log in to the web-portal where he/she can administer the system by for instance editing restaurant or user information.
@@ -858,6 +905,78 @@ VISUAL STUDIO
 
 Is a source code editor developed by Microsoft for windows, linux and macOS. It includes support for debugging, embedded Git control...in our lab project, we choose visual studio to implement our application and develop environment tools. 
 
+
+
+IV-2 DESIGN CONSTRAINTS:
+========================
+
+
+This part includes the design constraints on the software caused by the hardware.
+
+
+
+IV-2-1 Hard drive space
+-----------------------
+
+
+For our project, the application's need of hard drive space.
+
+
+For meter we need MegaByte MB.
+
+
+
+IV-2-2 Application memory usage
+-------------------------------
+
+
+
+Application memory can take GegaByte MB. Project includes many applications.
+
+
+
+IV-3 Software system attributes
+-------------------------------
+
+
+The attribute requirements are the heart ans soul of why our customers will value our software.
+
+
+
+Reliability
+
+
+the reliability system. our system should gives the right result on a search.
+
+
+Maintainability
+
+
+Application should be easy to extend. code should be written in a way that it favors implementatio of new functions.
+
+
+Security
+
+
+The Communication between system and server need to be more secure. should respect the security principles such as: authentification, confidently, verification..
+
+
+Availability
+
+
+The system should be available when it is used.
+
+
+Portability
+
+
+Application should be  portable with multiple system such as LINUX, WINDOWS, iOS, ANDROID, DEBIAN...
+
+
+Robustness
+
+
+our system should be robust to save amount of data and satistying the most of customers.
 
 
 REFERENCES:
