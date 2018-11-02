@@ -1009,15 +1009,4 @@ https://tallyfy.com/uml-diagram/
 
 
 
-
-
-
-
-
- 
-
-
-
-
-
-.. image:: img/activity_diagram.png
+.. image:: /img/activity_diagram.png
