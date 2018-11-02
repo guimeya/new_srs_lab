@@ -1007,4 +1007,4 @@ https://tallyfy.com/uml-diagram/
 
 
 
-.. image:: /images/database-visitor.png
+.. image:: /docs/images/database-visitor.png
