@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body class="homepage">
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href=".">My Docs</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#project-lab-software-requirements-specification">PROJECT LAB: SOFTWARE REQUIREMENTS SPECIFICATION</a></li>
+        <li class="main "><a href="#srs">SRS</a></li>
+            <li><a href="#students-name-and-id">STUDENTS NAME AND ID:</a></li>
+        <li class="main "><a href="#guimeya-jiofack-janny-carole-201825800044">GUIMEYA JIOFACK JANNY CAROLE 201825800044</a></li>
+        <li class="main "><a href="#ahinkora-thomas-201825800061">AHINKORA THOMAS 201825800061</a></li>
+        <li class="main "><a href="#i-intoduction">I- INTODUCTION</a></li>
+            <li><a href="#i-1-purpose">I-1 PURPOSE:</a></li>
+            <li><a href="#i-2-scope-of-project">I-2 SCOPE OF PROJECT:</a></li>
+            <li><a href="#i-3-definition">I-3 DEFINITION:</a></li>
+            <li><a href="#ii-description">II- DESCRIPTION:</a></li>
+            <li><a href="#ii-1-product-perspectives">II-1 PRODUCT PERSPECTIVES:</a></li>
+            <li><a href="#ii-2-product-functions">II-2 PRODUCT FUNCTIONS:</a></li>
+            <li><a href="#ii-3-user-characteristics">II-3 USER CHARACTERISTICS:</a></li>
+            <li><a href="#ii-4-constraints">II-4 CONSTRAINTS:</a></li>
+            <li><a href="#ii-5-assumptions-and-dependencies">II-5 ASSUMPTIONS AND DEPENDENCIES:</a></li>
+            <li><a href="#ii-6-apportioning-of-requirements">II-6 APPORTIONING OF REQUIREMENTS:</a></li>
+        <li class="main "><a href="#iii-specific-requirements">III- SPECIFIC REQUIREMENTS:</a></li>
+            <li><a href="#iii-1-external-interface-requirements">III-1 EXTERNAL INTERFACE REQUIREMENTS:</a></li>
+            <li><a href="#iii-1-1-user-interfaces">III-1-1 USER INTERFACES:</a></li>
+            <li><a href="#iii-1-2-hardware-interfaces">III-1-2 HARDWARE INTERFACES:</a></li>
+            <li><a href="#iii-1-3-software-interfaces">III-1-3 SOFTWARE INTERFACES:</a></li>
+        <li class="main "><a href="#iii-2-functional-requirements">III-2 FUNCTIONAL REQUIREMENTS:</a></li>
+            <li><a href="#iii-2-1-actors-of-system">III-2-1 ACTORS OF SYSTEM:</a></li>
+            <li><a href="#iii-2-2-database">III-2-2 DATABASE:</a></li>
+            <li><a href="#iii-2-3-uml-diagrams">III-2-3 UML DIAGRAMS:</a></li>
+        <li class="main "><a href="#iii-3-scenario">III-3 SCENARIO:</a></li>
+            <li><a href="#create-account">create account</a></li>
+            <li><a href="#set-initial-password">set initial password</a></li>
+            <li><a href="#set-deadline">set deadline</a></li>
+            <li><a href="#give-feedback">give feedback</a></li>
+            <li><a href="#check-feedback">check feedback</a></li>
+            <li><a href="#send-request">send request</a></li>
+            <li><a href="#check-feedback_1">check feedback</a></li>
+            <li><a href="#set-the-deadline">set the deadline</a></li>
+            <li><a href="#delete-account">delete account</a></li>
+            <li><a href="#initialize-a-password">initialize a password</a></li>
+            <li><a href="#send-request_1">send request</a></li>
+            <li><a href="#give-feedback_1">give feedback</a></li>
+        <li class="main "><a href="#iv-prioritization-and-release-plan">IV- PRIORITIZATION AND RELEASE PLAN:</a></li>
+            <li><a href="#iv-1-programming-language">IV -1 PROGRAMMING LANGUAGE:</a></li>
+        <li class="main "><a href="#iv-2-design-constraints">IV-2 DESIGN CONSTRAINTS:</a></li>
+            <li><a href="#iv-2-1-hard-drive-space">IV-2-1 Hard drive space</a></li>
+            <li><a href="#iv-2-2-application-memory-usage">IV-2-2 Application memory usage</a></li>
+            <li><a href="#iv-3-software-system-attributes">IV-3 Software system attributes</a></li>
+        <li class="main "><a href="#references">REFERENCES:</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="project-lab-software-requirements-specification">PROJECT LAB: SOFTWARE REQUIREMENTS SPECIFICATION</h2>
+<h2 id="srs">SRS</h2>
+<h3 id="students-name-and-id">STUDENTS NAME AND ID:</h3>
+<h2 id="guimeya-jiofack-janny-carole-201825800044">GUIMEYA JIOFACK JANNY CAROLE 201825800044</h2>
+<h2 id="ahinkora-thomas-201825800061">AHINKORA THOMAS 201825800061</h2>
+<h2 id="i-intoduction">I- INTODUCTION</h2>
+<h3 id="i-1-purpose">I-1 PURPOSE:</h3>
+<p>The purpose of this document is to present a detailed description of a lap report repository. It will explain the purpose and features of the Lab report, the interfaces of the lab report, what the lab report will do, the constraints under which it must operate and how the system will react to external stimuli. This document is intended for students, instructors, visitors, TAs and administrators of the system.</p>
+<h3 id="i-2-scope-of-project">I-2 SCOPE OF PROJECT:</h3>
+<p>This software system will be a lab report repository for student to be able to upload their assignments. This system will be designed to help instructors to read and mark uploaded assignments of student also other visitors can visit the system if they want to. The lab report will be to understand and use.</p>
+<p>More specifically, this lab report is designed to allow an administrator to manage and communicate with a group of reviewers and student who post to a public web side. The software will facilitate communication between instructors, students, visitors and TAs via E-mail. Preformatted reply forms are used in every stage of the report progress through the system to provide a uniform review process; the location of these forms is configurable via the application’s maintenance options.</p>
+<h3 id="i-3-definition">I-3 DEFINITION:</h3>
+<p>Instructor</p>
+<p>is a teacher of the lab responsible to update some information and send it to the students.</p>
+<p>Student</p>
+<p>is someone who is registered for the lab class.</p>
+<p>Administrator</p>
+<p>is a system admin who is giving specific permission for managing and controlling the system.</p>
+<p>Visitor</p>
+<p>someone else who visit or take part of some information in our application.</p>
+<p>TAs</p>
+<p>is a teacher assistant who update some information.</p>
+<h3 id="ii-description">II- DESCRIPTION:</h3>
+<p>This section will give an overview of the whole system. The system will be explained in its context to show how the system interacts with other systems and introduce the basic functionality of it. It will also describe what type of stakeholders that will use the system and what functionality is available for each type.</p>
+<h3 id="ii-1-product-perspectives">II-1 PRODUCT PERSPECTIVES:</h3>
+<p>This system will consist of only one part: web portal. The web portal will be used for managing the information about the website and the?system as a whole.</p>
+<p>Since this is a data-centric product it will need somewhere to store the data. For that, a database will be used. The web portal will communicate with the database, however in slightly different ways. The web portal will also add and modify data. All of the database communication will go over the Internet.</p>
+<p><img alt="figure1" src="images/figure1.png" /></p>
+<p>Fig: Block diagram</p>
+<h3 id="ii-2-product-functions">II-2 PRODUCT FUNCTIONS:</h3>
+<p>With the web application, student will be able to post their assignment and get information back from the instructors and TAs, the visitors will also be able to search for information. It will be possible for the administrator of the system to manage the options for those criteria that have that.</p>
+<p>The result of the search will be viewed either in a list view.</p>
+<p>The web portal will provide functionality to manage the system and the web information. It will also provide information about the system.</p>
+<h3 id="ii-3-user-characteristics">II-3 USER CHARACTERISTICS:</h3>
+<p>There are five types of users that interact with the system: users of the web application, student, instructors, TAs, visitors and administrators. Each of these five types of users has different use of the system so each of them has their own requirements.</p>
+<p>The student users can post assignments and give feedback to the instructors. The instructors can also post assignment, mark assignment and give feedback to students. The TAs also works like the instructors they have the same funtions. The visitors only search for information on the system.</p>
+<p>The administrators also only interact with the web portal. They are managing the overall system so there is no incorrect information within it. The administrator can manage the information.</p>
+<h3 id="ii-4-constraints">II-4 CONSTRAINTS:</h3>
+<p>The Internet connection is also a constraint for the application. Since the application fetches data from the database over the Internet, it is crucial that there is an Internet connection for the application to function.</p>
+<p>The web portal will be constrained by the capacity of the database.</p>
+<h3 id="ii-5-assumptions-and-dependencies">II-5 ASSUMPTIONS AND DEPENDENCIES:</h3>
+<p>One assumption about the product is that it can also be used on mobile phones Another assumption is that the visitors can be able to asses some information’s on the system.</p>
+<h3 id="ii-6-apportioning-of-requirements">II-6 APPORTIONING OF REQUIREMENTS:</h3>
+<p>In the case that the project is delayed, there are some requirements that could be transferred to the next version of the application. Those requirements are to be developed in the third release.</p>
+<h2 id="iii-specific-requirements">III- SPECIFIC REQUIREMENTS:</h2>
+<p>This section contains all of the functional and quality requirements of the system. It gives a detailed description of the system and all its features.</p>
+<h3 id="iii-1-external-interface-requirements">III-1 EXTERNAL INTERFACE REQUIREMENTS:</h3>
+<p>This section provides a detailed description of all inputs into and outputs from the system. It also gives a description of the hardware, software and communication interfaces and provides basic prototypes of the user interface.</p>
+<h3 id="iii-1-1-user-interfaces">III-1-1 USER INTERFACES:</h3>
+<p>A first-time user of the application should see the log-in page when he/she opens the application, see Figure 2. If the user has not sign up, he/she should be able to do that on the log-in page.</p>
+<p>If the user is not a first-time user, he/she should be able to see the home page directly when the application is opened, see Figure 3. Here the user chooses the type of program he/she wants to conduct.</p>
+<p>Every user should have a profile page where they can edit their e-mail address, ID number, select program, language and password, see Figure 4.</p>
+<p><img alt="figure2" src="images/figure2.png" /></p>
+<p>Fig: Login page Fig: Search page Fig: Profile page</p>
+<p>In Figure 5, Students, instructor, visitors, TAs and administrators interact with the system through a web-portal. A student should be able to register on the web-portal in order to log in and manage his/her account. An administrator should also be able to log in to the web-portal where he/she can administer the system by for instance editing restaurant or user information.</p>
+<p><img alt="figure3" src="images/figure3.png" /></p>
+<h3 id="iii-1-2-hardware-interfaces">III-1-2 HARDWARE INTERFACES:</h3>
+<p>Since the web portal have any designated hardware, it does not have any direct hardware interfaces. The hardware connection to the database server is managed by the underlying operating system on the computer and the web server.</p>
+<h3 id="iii-1-3-software-interfaces">III-1-3 SOFTWARE INTERFACES:</h3>
+<p>The system communicates with the database to get information about the students, visitors and instructor. the communication between database and web portal consists of modifying and updating user informations.</p>
+<h2 id="iii-2-functional-requirements">III-2 FUNCTIONAL REQUIREMENTS:</h2>
+<p>This section include the requirements that specify all the fundamental actions of our software system , such as uses case.</p>
+<h3 id="iii-2-1-actors-of-system">III-2-1 ACTORS OF SYSTEM:</h3>
+<p>Students</p>
+<p>Instructors</p>
+<p>TAs</p>
+<p>Administrators</p>
+<p>Visitors</p>
+<p><img alt="tables" src="images/tables.png" /></p>
+<h3 id="iii-2-2-database">III-2-2 DATABASE:</h3>
+<p>A database is an organized collection of data, stored and accessed electronically. Database designers typically organize the data to model aspects of reality in a way that supports processes requiring information, such as (for example) modelling the online lab report of students assignment in lab and teacher give them feedback.</p>
+<p>For this project, we have five (5) tables such as:</p>
+<p>1- students</p>
+<p><img alt="student" src="images/student.png" /></p>
+<p>Fig: student table</p>
+<p>2- instructors</p>
+<p><img alt="instructor" src="images/instructor.png" /></p>
+<p>Fig: instructor table</p>
+<p>3- administrators</p>
+<p><img alt="admin" src="images/admin.png" /></p>
+<p>Fig: administrator table</p>
+<p>4- TAs</p>
+<p><img alt="tas" src="images/tas.png" /></p>
+<p>Fig: TAs table</p>
+<p>5- visitors</p>
+<p><img alt="visitor" src="images/visitor.png" /></p>
+<p>Fig: visitor table</p>
+<h3 id="iii-2-3-uml-diagrams">III-2-3 UML DIAGRAMS:</h3>
+<p>UML means Unified Modeling Language. UML is a way of visualizing a software program using a collection of diagrams. UML 2.0 helped extend the original UML specification to cover a wider portion of software development efforts including agile practices.</p>
+<p>Development process and UML diagram :</p>
+<p><img alt="table1" src="images/table1.png" /></p>
+<h4 id="iii-2-3-1-behavioral-uml-diagrams">III-2-3-1 Behavioral UML diagrams:</h4>
+<p>A- Use case diagram</p>
+<p>A use case diagram is a set of use cases, actors and their relationships.it’s represents the use case view of a system. For our project lab, we have five (5) actors and then we have doing a use case of each actor of system. It represents a particular functionality of a system. Use case diagram is used to describe the relationships among the functionalities and their internal/external controllers. These controllers are known as actors. For example, for our lab project , our controllers is admin.</p>
+<p><img alt="usecase" src="images/usecase.png" /></p>
+<p>Fig: use case diagram</p>
+<p>B- Sequence diagram</p>
+<p>A sequence diagram is an interaction diagram. From the name it’s clear that the diagram deals with some sequences, which are the sequence of messages flowing from one object to another. It’s use to visualize the sequence of calls in a system to perform a specific functionality.</p>
+<p><img alt="sequence" src="images/sequence.png" /></p>
+<p>Fig: sequence diagram</p>
+<p>C- Activity diagram</p>
+<p>Activity diagram describes the flow of contol in a system. It consists of activities and links. Activity diagram are used t visualize the floor of controls in a system.</p>
+<p><img alt="activity" src="images/activity.png" /></p>
+<p>Fig: activity diagram</p>
+<h4 id="iii-2-3-2-structural-uml-diagrams">III-2-3-2 Structural UML diagrams</h4>
+<p>A- Class diagram</p>
+<p>A class diagram consists of classes, interfaces, associations and collaboration. In this lab project, this class diagram bellow represent basically the object-oriented view of our system.</p>
+<p><img alt="class" src="images/class.png" /></p>
+<p>Fig: class diagram</p>
+<p>B- Component diagram</p>
+<p>A component diagram represent a set of components and their relationships. These components consist of classes, interfaces and collaborations. It represents the implementation view of a system.</p>
+<p><img alt="component" src="images/component.png" /></p>
+<p>Fig: component diagram</p>
+<h2 id="iii-3-scenario">III-3 SCENARIO:</h2>
+<h3 id="create-account">create account</h3>
+<p>When the instructor wants to create account he/she will:</p>
+<p>Enter name</p>
+<p>Enter id</p>
+<p>Enter email</p>
+<p>Enter phone number</p>
+<p>Enter course</p>
+<p>Enter password</p>
+<p>Enter nationality</p>
+<p>Enter gender</p>
+<p>Press the button create</p>
+<p>Press enter</p>
+<p>when the student wants to create account he/she will:</p>
+<p>enter name</p>
+<p>Enter id</p>
+<p>Enter email</p>
+<p>Enter phone number</p>
+<p>Enter course</p>
+<p>Enter password</p>
+<p>Enter nationality</p>
+<p>Enter gender</p>
+<p>Press the button create</p>
+<p>Press enter</p>
+<p>when the visitor want to create account he/she will :</p>
+<p>Enter name</p>
+<p>Enter id</p>
+<p>Enter course</p>
+<p>Enter email</p>
+<p>Enter password</p>
+<p>Enter phone number</p>
+<p>Press the button create</p>
+<p>Press enter</p>
+<p>when the TAs wants to create account he/she will:</p>
+<p>Enter name</p>
+<p>Enter id</p>
+<p>Enter password</p>
+<p>Press the button create</p>
+<p>Press enter</p>
+<p>when the administrator wants to create account he/she will:</p>
+<p>Enter name</p>
+<p>Enter id</p>
+<p>Enter password</p>
+<p>Enter email</p>
+<p>Press the button create</p>
+<p>Press enter</p>
+<h3 id="set-initial-password">set initial password</h3>
+<p>when the instructor wants to set initial password he/she will:</p>
+<p>Enter a new password</p>
+<p>Confirm this new password</p>
+<p>Press the button save</p>
+<p>Press ok</p>
+<p>when the student wants to set initial password he/she will:</p>
+<p>Enter a new password</p>
+<p>Confirm this new password</p>
+<p>Press the button save</p>
+<p>Press ok</p>
+<p>when the visitor wants to set initial password he/she will:</p>
+<p>Enter a new password</p>
+<p>Confirm this new password</p>
+<p>Press the button save</p>
+<p>Press ok</p>
+<p>when the administrator wants to set initial password he/she will:</p>
+<p>Enter a new password</p>
+<p>Confirm this new password</p>
+<p>Press the button save</p>
+<p>Press ok</p>
+<p>when the TAs wants to set initial password he/she will:</p>
+<p>Enter a new password</p>
+<p>Confirm this new password</p>
+<p>Press the button save</p>
+<p>Press ok</p>
+<p>delete account</p>
+<p>when the instructor want to delete account he/she will:</p>
+<p>Click in account</p>
+<p>Press the button delete</p>
+<p>Press enter</p>
+<p>when the student want to delete account he/she will:</p>
+<p>Click in account</p>
+<p>Press the button delete</p>
+<p>Press enter</p>
+<p>when the visitor want to delete account he/she will:</p>
+<p>Click in account</p>
+<p>Press the button delete</p>
+<p>Press enter</p>
+<p>when the TAs want to delete account he/she will:</p>
+<p>Click in account</p>
+<p>Press the button delete</p>
+<p>Press enter</p>
+<p>when the administrator wants to delete account he/she will:</p>
+<p>Click in account</p>
+<p>Press the button delete</p>
+<p>Press enter</p>
+<h3 id="set-deadline">set deadline</h3>
+<p>when the instructor wants to set deadline he/she will:</p>
+<p>Click on information</p>
+<p>Click on set deadline</p>
+<p>Press save</p>
+<p>Press enter</p>
+<p>when the TAs wants to set deadline he/she will:</p>
+<p>Click on information</p>
+<p>Click on set deadline</p>
+<p>Press save</p>
+<p>Press enter</p>
+<h3 id="give-feedback">give feedback</h3>
+<p>when the instructor wants to give feedback he/she will:</p>
+<p>Click on feedback</p>
+<p>click on the button sent</p>
+<p>Press enter</p>
+<p>when the TAs wants to give feedback he/she will:</p>
+<p>Click on feedback</p>
+<p>click on the button sent</p>
+<p>Press enter</p>
+<h3 id="check-feedback">check feedback</h3>
+<p>when the student wants to check feedback he/she will:</p>
+<p>Click on feedback</p>
+<p>Click on the button check</p>
+<p>Press enter</p>
+<p>when the visitor wants to check feedback he/she will:</p>
+<p>Click on feedback</p>
+<p>Click on the button check</p>
+<p>Press enter</p>
+<h3 id="send-request">send request</h3>
+<p>when the student wants to send request he/she will:</p>
+<p>Click on request</p>
+<p>Click on the button send</p>
+<p>Press enter</p>
+<p>login in the web portal</p>
+<p>Fill in your name or email</p>
+<p>Fill in your password</p>
+<p>Press the button connection</p>
+<h3 id="check-feedback_1">check feedback</h3>
+<p>Click on feedback menu</p>
+<p>Click on the link</p>
+<p>Open the link</p>
+<p>Read the link</p>
+<p>Download the link</p>
+<h3 id="set-the-deadline">set the deadline</h3>
+<p>Click on the calendar</p>
+<p>Select the date</p>
+<p>Click on extend deadline</p>
+<p>Click on update deadline</p>
+<p>Press in save new deadline</p>
+<h3 id="delete-account">delete account</h3>
+<p>Click on users account</p>
+<p>Select the account</p>
+<p>Click on delete</p>
+<p>Click on suspend account</p>
+<p>Press in the button enter</p>
+<h3 id="initialize-a-password">initialize a password</h3>
+<p>Select user account</p>
+<p>Choose the account</p>
+<p>Click on the button initialize</p>
+<p>Fill in the password</p>
+<p>Save the new password</p>
+<p>Press the button enter</p>
+<h3 id="send-request_1">send request</h3>
+<p>Press request button</p>
+<p>Fill in your request</p>
+<p>Press send request</p>
+<p>Save the request</p>
+<h3 id="give-feedback_1">give feedback</h3>
+<p>Click in student email</p>
+<p>Choose the student email</p>
+<p>Send feedback</p>
+<h2 id="iv-prioritization-and-release-plan">IV- PRIORITIZATION AND RELEASE PLAN:</h2>
+<h3 id="iv-1-programming-language">IV -1 PROGRAMMING LANGUAGE:</h3>
+<p>JAVA JDK 8</p>
+<p>we use java language because in java everything is an object, it can be easily extended since it is based on the object model. It’s simple and easy to learn, it’s secure, it’s portable, it’s robust, it’s interpreted : java byte code is translated on the fly to native machine instructions and is not stored anywhere.java has a high performance and it’s multithreaded : it’s possible to write programs that can perform many tasks simultaneously.</p>
+<p>WampServer</p>
+<p>In our project, we have used the server Wamp, which provides the basics for setting up your local Apache/PHP/MySQL environment on windows.</p>
+<p>Apache</p>
+<p>Is our web server software.</p>
+<p>PHP</p>
+<p>Is the general purpose scripting language that runs on Apache.</p>
+<p>MySQL</p>
+<p>Is the database server software that works hand-in-hand with PHP and Apache. phpMyAdmin is a free software tool written in PHP, intended to handle the administration of MYSQL over the web. Concerning our project, we have used phpMyAdmin to develop our database.</p>
+<p>SUBLIME</p>
+<p>Is a test editor which helps us to write our srs in Read the doc.</p>
+<p>DIA</p>
+<p>Is an application which helps us to do our UML diagrams.</p>
+<p>VISUAL STUDIO</p>
+<p>Is a source code editor developed by Microsoft for windows, linux and macOS. It includes support for debugging, embedded Git control...in our lab project, we choose visual studio to implement our application and develop environment tools.</p>
+<h2 id="iv-2-design-constraints">IV-2 DESIGN CONSTRAINTS:</h2>
+<p>This part includes the design constraints on the software caused by the hardware.</p>
+<h3 id="iv-2-1-hard-drive-space">IV-2-1 Hard drive space</h3>
+<p>For our project, the application's need of hard drive space.</p>
+<p>For meter we need MegaByte MB.</p>
+<h3 id="iv-2-2-application-memory-usage">IV-2-2 Application memory usage</h3>
+<p>Application memory can take GegaByte MB. Project includes many applications.</p>
+<h3 id="iv-3-software-system-attributes">IV-3 Software system attributes</h3>
+<p>The attribute requirements are the heart ans soul of why our customers will value our software.</p>
+<p>Reliability</p>
+<p>the reliability system. our system should gives the right result on a search.</p>
+<p>Maintainability</p>
+<p>Application should be easy to extend. code should be written in a way that it favors implementatio of new functions.</p>
+<p>Security</p>
+<p>The Communication between system and server need to be more secure. should respect the security principles such as: authentification, confidently, verification..</p>
+<p>Availability</p>
+<p>The system should be available when it is used.</p>
+<p>Portability</p>
+<p>Application should be portable with multiple system such as LINUX, WINDOWS, iOS, ANDROID, DEBIAN...</p>
+<p>Robustness</p>
+<p>our system should be robust to save amount of data and satistying the most of customers.</p>
+<h2 id="references">REFERENCES:</h2>
+<p>https://cn.bing.com/search?q=running+environment+phpmysql&amp;src=IE-TopResult&amp;FORM=IETR02&amp;conversationid=&amp;pc=EUPP_ https://www.tutorialspoint.com/uml/uml_standard_diagrams.htm https://www.tutorialspoint.com/uml/uml_standard_diagrams.htm https://courses.cs.washington.edu/courses/cse403/11sp/lectures/lecture08-uml1.pdf http://www.nyu.edu/classes/jcf/g22.2440-001_sp09/handouts/UMLBasics.pdf https://www.ibm.com/support/knowledgecenter/SS8PJ7_9.6.1/com.ibm.xtools.modeler.doc/topics/cinterfc.html https://techwhirl.com/writing-software-requirements-specifications/ https://www.uml-diagrams.org/component-diagrams.html https://www.ibm.com/developerworks/rational/library/dec04/bell/index.html https://docs.staruml.io/working-with-diagrams/component-diagram https://online.visual-paradigm.com/tutorials/component-diagram-tutorial/ https://www.tutorialspoint.com/uml/uml_component_diagram.htm https://online.visual-paradigm.com/diagrams.jsp#diagramlist:proj=0&amp;new=ComponentDiagram https://www.smartdraw.com/component-diagram/ https://tallyfy.com/uml-diagram/</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.0.4
+Build Date UTC : 2018-11-02 12:30:48
+-->
